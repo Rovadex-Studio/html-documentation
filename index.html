@@ -171,9 +171,32 @@
                     <section>
                         <h2 class="rx_header_bottom_divider">Google Map</h2>
                         <p>
-                            In order to setup the google maps you need to process with the following steps    
+                            In order to setup the google maps you need to process with the following steps:
                         </p>
-                    </section>
+                        <ul>
+                            <li>
+                                Find the folowing string in HTML file and specify your key - &lt;script src="https://maps.googleapis.com/maps/api/js?key=you_googlemap_key"&gt;&lt;/script&gt;<br>   
+                                To obtain the key you should preliminary refer to the <a href="https://developers.google.com/maps/documentation/javascript/get-api-key">official documentation</a>                             
+                            </li>
+                            <li>
+                                Для установки марке, нужно открыть файл scripts.js и найти код
+                                To define the marker, open the scripts.js file anf find the following code:
+                                <code>
+                                    <pre>
+    var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(40.6401038, -73.9495823),
+        map: map,
+        icon: 'img/icon-map.png'
+    });
+                                    </pre>
+                                </code>
+                                In the “position” variable define the google map coordinates
+                            </li>
+                            <li>
+                                To get more detailed information please read the <a href="https://cloud.google.com/maps-platform/"> official documentation </a>
+                            </li>
+                        </ul>
+                    </section>  
                     
                     <section>
                         <h2 class="rx_header_bottom_divider">Sources & Credits</h2>

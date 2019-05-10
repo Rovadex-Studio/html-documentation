@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="utf-8" />
 	<title>THEME NAME Documentation</title>
@@ -18,277 +17,233 @@
 	<link href="css/style.css" rel="stylesheet" />
 </head>
 
-<body>
-	<div class="rxt_main">
-		<header class="rxt_header">
-			<section class="rxt_sidebar">
-				<div class="rxt_nav">
-					<h1 class="rx_nav_title">THEME NAME</h1>
-					<ul class="main-menu">
-						<li>
-							<a href="#getting_started" class="rx_link">Getting Started</a>
+	<body>
+		<div class="rxt_main">
+			<header class="rxt_header">
+				<section class="rxt_sidebar">
+					<div class="rxt_nav">
+						<h1 class="rx_nav_title">THEME NAME</h1>
+						<ul class="main-menu">
+							<li>
+								<a href="#installation" class="rx_link">Installation</a>
+							</li>
+							<li>
+								<a href="#template_structure" class="rx_link">Template Structure</a>
+								<ul class="sub-menu">
+									<li><a href="#html_structure" class="rx_link">HTML</a></li>
+									<li><a href="#css_structure" class="rx_link">CSS</a></li>
+									<li><a href="#js_structure" class="rx_link">JS</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#extras" class="rx_link">Extras</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</header>
+			<div class="rxt_content">
+				<div class="rxt_wrapper">
+					<div class="rxt_content_container">
+						<section>
+							<h2 class="rx_header_bottom_divider" id="installation">Installation</h2>
+							<h3 class="rx_header_bottom_divider" >Download template</h3>
+							<p> Download THEME NAME theme files from your account > downloads tab</p>
+							<h3 class="rx_header_bottom_divider" >Installing THEME NAME</h3>
+							<p> Once you've downloaded the installation file, extract it and locate a file called THEME-SLUG.zip. After unzipping the file you should upload it to your WordPress installation: </p>
+						</section>
+
+						<section id="template_structure">
+							<h2 class="rx_header_bottom_divider">Template structure</h2>
+							<h3 class="rx_header_bottom_divider">Main folder</h3>
+							<ul>
+								<li>The <strong>css</strong> folder - contains the main template and vendor styles bootstrap, font-awesome, fancy-box, slick.</li>
+								<li>The <strong>fonts</strong> folder - contains the fontawesome font</li>
+								<li>The <strong>img</strong> folder - contains images which are used in the template, the images format jpg, png, svg</li>
+								<li>The <strong>js</strong> folder - contains the template and vendor scripts jquery, masonry, fancy box, slick</li>
+								<li>The <strong>php</strong> folder - contains contact.php, which sends e-mails</li>
+								<li>The <strong>video</strong> folder - contains template's video</li>
+								<li>HTML pages</li>
+							</ul>
+
+							<h3 id="html_structure" class="rx_header_bottom_divider">HTML</h3>
+							<p>HTML document structure, all the blocks were commented</p>
+							<ul>
+								<li><i>STYLE</i> - styles including</li>
+								<li><i>HEADER</i> - template header
+									<ul>
+										<li><i>LOGO</i> - logotype</li>
+										<li><i>MAIN MENU</i> - main menu</li>
+										<li><i>SOCIAL ICONS</i> - social icons</li>
+									</ul>
+								</li>
+								<li><i>MAIN CONTENT</i> - main content
+									<ul>
+										<li><i>MAIN SLIDER</i> - home page slider</li>
+										<li><i>BEST PRICES</i> - best price block</li>
+										<li><i>SERVICES BLOCK</i> - services block</li>
+										<li><i>BLOG</i> - blog</li>
+										<li><i>INFO BLOCK</i> - information block</li>
+										<li><i>SHOP</i> - products block</li>
+										<li><i>OFFERS</i> - best offers block</li>
+										<li><i>TESTIMONIALS</i> - client testimonials block </li>
+										<li><i>CONTACTS</i> - contact form</li>
+										<li><i>GOOGLE MAP</i> - Google map</li>
+									</ul>
+								</li>
+								<li><i>FOOTER</i> - template footer</li>
+								<li><i>TO TOP</i> - “TO TOP” button</li>
+								<li><i>THEME SCRIPT</i> - Template's script including</li>
+							</ul>
+
+							<h3 id="css_structure" class="rx_header_bottom_divider">CSS</h3>
+							<p>CSS document structure, all the blocks were commented</p>
+							<ul>
+								<li><i>RESET STYLES</i> - reset the default browser styles</li>
+								<li><i>DEFAULT STYLES</i> - default styles for all browsers</li>
+								<li><i>MENU</i> - main menu styles</li>
+								<li><i>LOGO</i> - logotype styles</li>
+								<li><i>HOME</i> - home page styles</li>
+								<li><i>FOOTER</i> - footer template styles</li>
+								<li><i>PAGE TITLE</i> - template page title styles </li>
+								<li><i>SERVICES</i> - services page styles</li>
+								<li><i>TYPOGRAPHY</i> - typography page styles</li>
+								<li><i>ABOUT</i> - About Us page styles</li>
+								<li><i>SHOP</i> - shop page styles</li>
+								<li><i>GALLERY</i> - gallery page styles</li>
+								<li><i>CONTACTS</i> - contacts page styles</li>
+							</ul>
+
+							<h3 id="js_structure" class="rx_header_bottom_divider">JS</h3>
+							<p>JS document structure, all the blocks were commented</p>
+							<ul>
+								<li><i>MENU</i> - main navigation script</li>
+								<li><i>SEARCH FORM</i> - search form script</li>
+								<li><i>HOME 1 MAIN SLIDER</i> - home page slider script</li>
+								<li><i>HOME 1 OFFERS SLIDER</i> - home page offers slider script</li>
+								<li><i>TESTIMONIALS SLIDER</i> - testimonials slider script</li>
+								<li><i>SLIDER VIDEO</i> - video slider script </li>
+								<li><i>SLIDER NEW PRODUCT</i> - new product slider script</li>
+								<li><i>SLIDER SINGLE PRODUCT</i> - product detail page script</li>
+								<li><i>FANCYBOX 3</i> - image displaying script</li>
+								<li><i>TABS</i> - tabs script</li>
+								<li><i>TO TOP</i> - "to top" button script</li>
+								<li><i>CONTACT FORM</i> - contact form script</li>
+								<li><i>GOOGLE MAP</i> - google map script</li>
+							</ul>
+						</section>
+
+						<section>
+							<h2 class="rx_header_bottom_divider">Fonts</h2>
+							<p>Fonts including in the header</p>
+							<code class="prettyprint language-html">
+								&lt;link type="text/css" rel="stylesheet" href="font_reference"&gt;
+							</code>
+						</section>
+
+						<section>
+							<h2 class="rx_header_bottom_divider">Icons</h2>
+							<p>
+								For the icons presentation the <a href="https://fontawesome.com/v4.7.0/">Fontawesome - v4.7.0</a> are used. <br>Header font including are processing by following construction:
+							</br></br><code class="prettyprint language-html">
+								&lt;link rel="stylesheet" href="css/font-awesome.min.css"&gt;
+							</code>
+						</p>
+					</section>
+
+					<section>
+						<h2 class="rx_header_bottom_divider">Contact form</h2>
+						<p>
+							In order to setup the contact form and start using it you just need to open the <strong>php\contact.php</strong> file and find the <code>$address</code> variable that define your e-mail address. <br>
+							<div class="alert alert-danger">Please note, that contact form should be uploaded to the server</div>
+						</p>
+					</section>
+
+					<section>
+						<h2 class="rx_header_bottom_divider">Google Map</h2>
+						<p>In order to setup the google maps you need to process with the following steps:</p>
+						<ul>
+							<li>
+								Find the folowing string in HTML file and specify your key
+							</br></br><code class="prettyprint language-html">&lt;script src="https://maps.googleapis.com/maps/api/js?key=you_googlemap_key"&gt;&lt;/script&gt;</code></br></br>
+							To obtain the key you should preliminary refer to the <a href="https://developers.google.com/maps/documentation/javascript/get-api-key" target="_blank">official documentation</a>
 						</li>
 						<li>
-							<a href="#installation" class="rx_link">Installation</a>
+							To define the marker, open the scripts.js file anf find the following code:<br><br>
+							<code class="prettyprint language-javascript">var marker = new google.maps.Marker({
+								position: new google.maps.LatLng(40.6401038, -73.9495823),
+								map: map,
+								icon: 'img/icon-map.png'
+							});</code></br></br>
+							In the <strong>position</strong> variable define the google map coordinates
 						</li>
 						<li>
-							<a href="#0" class="rx_link">Template structure</a>
-                                <ul class="sub-menu">
-                                    <li><a href="#html_structure" class="rx_link">HTML</a></li>
-                                    <li><a href="#css_structure" class="rx_link">CSS</a></li>
-                                    <li><a href="#js_structure" class="rx_link">JS</a></li>
-                                </ul>
-                            
-<!-- 							<ul class="sub-menu">
-								<li><a href="#elementor" class="rx_link">Elementor</a></li>
-								<li><a href="#slider-revolution" class="rx_link">Slider Revolution</a></li>
-								<li><a href="#jetwidgets-for-elementor" class="rx_link">JetWidgets For Elementor</a></li>
-								<li><a href="#contact-form-7" class="rx_link">Contact Form 7</a></li>
-								<li><a href="#wp-gdpr-complian" class="rx_link">WP GDPR Compliance</a></li>
-								<li><a href="#rx-theme-assistant" class="rx_link">Rx Theme Assistant</a></li>
-								<li><a href="#rx-theme-wizard" class="rx_link">Rx Theme Wizard</a></li>
-								<li><a href="#live-demo-switcher" class="rx_link">Cherry Live Demo Mods Switcher</a></li>
-								<li><a href="#jet-data-importer" class="rx_link">Jet Data Importer </a></li>
-								<li><a href="#header-footer-elementor" class="rx_link">Header, Footer & Blocks for Elementor</a></li>
-							</ul> -->
-						</li>
-						<li>
-							<a href="#extras" class="rx_link">Extras</a>
+							To get more detailed information please read the <a href="https://cloud.google.com/maps-platform/" target="_blank">official documentation </a>
 						</li>
 					</ul>
-				</div>
-			</section>
-		</header>
-		<div class="rxt_content">
-			<div class="rxt_wrapper">
-				<div class="rxt_content_container">
-					<section><a href="#0" name="getting_started"></a>
-						<h2 class="rx_header_bottom_divider">Getting Started</h2>
-					</section>
-					<section><a href="" name="installation"></a>
-						<h2 class="rx_header_bottom_divider">Installation</h2>
-						<h3>Download theme</h3>
-						<p> Download THEME NAME theme files from Your account > Downloads tab: </p>
-						<h3>Installing THEME NAME</h3>
-						<p> Once you've downloaded the installation file, extract it and locate a file called THEME-SLUG.zip. After unzipping the file you should upload it to your WordPress installation: </p>
-					</section>
-                    
-                    <section id="template_structure">
-                        <h2 class="rx_header_bottom_divider">Template structure</h2>
-                        <a href="" name="template_structure"></a>
-                        <h3 class="rx_header_bottom_divider">Main folder</h3>
-                        <ul>
-                            <li>The css folder - contains the main template and vendor styles  bootstrap, font-awesome, fancy-box, slick.</li>
-                            <li>The fonts folder - contains the fontawesome font</li>
-                            <li>The img folder - contains images which are used in the template, the images format jpg, png, svg</li>
-                            <li>Папка  js - содержит скрипты темы и вендорные скрипты jquery, masonry, fancy box, slick</li>
-                            <li>The js folder - contains the template and vendor scripts jquery, masonry, fancy box, slick</li>
-                            <li>The php folder - contains contact.php, which sends e-mails</li>
-                            <li>The video folder - contains template's video</li>
-                            <li>HTML pages</li>
-                        </ul>
-                        
-                        <a href="#0" name="html_structure"></a>
-                        <h3 class="rx_header_bottom_divider">HTML</h3>
-                        <p>HTML document structure, all the blocks were commented</p>
-                        <ul>
-                            <li>STYLE - styles including</li>
-                            <li>HEADER - template header
-                                <ul>
-                                    <li>LOGO - logotype</li>
-                                    <li>MAIN MENU - main menu</li>
-                                    <li>SOCIAL ICONS - social icons</li>
-                                </ul>
-                            </li>
-                            <li>MAIN CONTENT - main content
-                                <ul>
-                                    <li>MAIN SLIDER - home page slider</li>
-                                    <li>BEST PRICES - best price block</li>
-                                    <li>SERVICES BLOCK - services block</li>
-                                    <li>BLOG - blog</li>
-                                    <li>INFO BLOCK - information block</li>
-                                    <li>SHOP  - products block</li>
-                                    <li>OFFERS - best offers block</li>
-                                    <li>TESTIMONIALS - client testimonials block </li>
-                                    <li>CONTACTS - contact form</li>
-                                    <li>GOOGLE MAP - Google map</li>
-                                </ul>
-                            </li>
-                            <li>FOOTER - template footer</li>
-                            <li>TO TOP - “TO TOP” button</li>
-                            <li>THEME SCRIPT - Template's script including</li>
-                        </ul>
-                        
-                        <a href="" name="css_structure"></a>
-                        <h3 class="rx_header_bottom_divider">CSS</h3>
-                        <ul>
-                            <li>RESET STYLES - reset the default browser styles</li>
-                            <li>DEFAULT STYLES - default styles for all browsers</li>
-                            <li>MENU - main menu styles</li>
-                            <li>LOGO - logotype styles</li>
-                            <li>HOME - home page styles</li>
-                            <li>Footer - footer template styles</li>
-                            <li>Page title - template page title styles </li>
-                            <li>Services - services page styles</li>
-                            <li>Typography - typography page styles</li>
-                            <li>About - About Us page styles</li>
-                            <li>Shop - shop page styles</li>
-                            <li>Gallery - gallery page styles</li>
-                            <li>CONTACTS - contacts page styles</li>
-                        </ul>
-                        
-                        <a href="" name="js_structure"></a>
-                        <h3 class="rx_header_bottom_divider">JS</h3>  
-                        <ul>
-                            <li>MENU - main navigation script</li>
-                            <li>SEARCH FORM - search form script</li>
-                            <li>HOME 1 MAIN SLIDER - home page slider script</li>
-                            <li>HOME 1 OFFERS SLIDER - home page offers slider script</li>
-                            <li>TESTIMONIALS SLIDER - testimonials slider script</li>
-                            <li>SLIDER VIDEO - video slider script </li>
-                            <li>SLIDER NEW PRODUCT - new product slider script</li>
-                            <li>SLIDER SINGLE PRODUCT - product detail page script</li>
-                            <li>FANCYBOX 3 - image displaying script</li>
-                            <li>TABS - tabs script</li>
-                            <li>TO TOP - "to top" button script</li>
-                            <li>CONTACT FORM - contact form script</li>
-                            <li>Google map - google map script</li>
-                        </ul>                        
-                    </section>
-                    
-                    <section>
-                        <h2 class="rx_header_bottom_divider">Fonts</h2>
-                        <p>Fonts including in the header</p>
-                    </section>
+				</section>
 
-                    <section>
-                        <h2 class="rx_header_bottom_divider">Icons</h2>
-                        <p>
-                            For the icons presentation the fontawesome - v4.7.0. are used. <br>Header font including are processing by following construction: 
-                            &lt;link rel="stylesheet" href="css/font-awesome.min.css"&gt;
-                        </p>
-                    </section>
-                    
-                    <section>
-                        <h2 class="rx_header_bottom_divider">Contact form</h2>
-                        <p> 
-                            In order to setup the contact form and start using it you just need to open the  php\contact.php file and find the $address variable that define your e-mail address. <br>
-                            Please note, that contact form should be uploaded to the server
-                        </p>
-                    </section>
-                    
-                    <section>
-                        <h2 class="rx_header_bottom_divider">Google Map</h2>
-                        <p>
-                            In order to setup the google maps you need to process with the following steps:
-                        </p>
-                        <ul>
-                            <li>
-                                Find the folowing string in HTML file and specify your key - &lt;script src="https://maps.googleapis.com/maps/api/js?key=you_googlemap_key"&gt;&lt;/script&gt;<br>   
-                                To obtain the key you should preliminary refer to the <a href="https://developers.google.com/maps/documentation/javascript/get-api-key">official documentation</a>                             
-                            </li>
-                            <li>
-                                Для установки марке, нужно открыть файл scripts.js и найти код
-                                To define the marker, open the scripts.js file anf find the following code:
-                                <code>
-                                    <pre>
-    var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(40.6401038, -73.9495823),
-        map: map,
-        icon: 'img/icon-map.png'
-    });
-                                    </pre>
-                                </code>
-                                In the “position” variable define the google map coordinates
-                            </li>
-                            <li>
-                                To get more detailed information please read the <a href="https://cloud.google.com/maps-platform/"> official documentation </a>
-                            </li>
-                        </ul>
-                    </section>  
-                    
-                    <section>
-                        <h2 class="rx_header_bottom_divider">Sources & Credits</h2>
-                        <h3>Icons</h3>
-                        <a href="https://fontawesome.com/v4.7.0/icons">Fontawesome</a>
-                        
-                        <h3>Java Script</h3>
-                        <a href="https://jquery.com">JQuery</a><br>
-                        <a href="http://fancyapps.com/fancybox/3/">Fancybox</a>
-                        <a href="http://masonry.desandro.com">Masonry</a>
-                        <a href="https://kenwheeler.github.io/slick/">Slick</a>
-                    </section>
-                    
-					<section><a href="#0" name="extras"></a>
-						<h2 class="rx_header_bottom_divider">Extras</h2>
-						<p> Additional information </p>
-						<h3>
-							Licence
-						</h3>
-						<p> There are two licence option before theme purchasing you may choose more appropriate for your case: </p>
-						<h4>
-							The Regular License
-						</h4>
-						<p> You are able to use current theme to create one single product (site) for you.</p>
-						<h4>
-							The Extended License.
-						</h4>
-						<p> You are able to resell the single product to other clients. Is required if the end user must pay to use the end product.</p>
-						<!--<p> Here are <a href="https://themeforest.net/licenses/standard?license=regular" target="_blank">details</a><br> Please note, the billing, licensing terms and process is totally controlled by Envato (ThemeForest) </p>-->
-						<h3>
-							Package
-						</h3>
-						<h4>
-							THEME-SLUG.zip
-						</h4>
-						<p> This file located inside the THEME NAME Theme folder, this is the installable WordPress file you'll need to install or update THEME NAME manually. </p>
-						<h4>
-							THEME-SLUG-child-theme.zi
-						</h4>
-						<p> This file located inside the theme package folder, this is a child theme you can use to make changes to THEME NAME's core theme files. In case of theme modifying We strongly recommend to use the Child Theme then. That way, when the parent theme is updated, your modifications are preserved. You don't have to create your own child theme, just use the particular one zipped child theme. </p>
-						<h4>
-							documentation.html
-						</h4>
-						<p> This file located inside the THEME NAME Theme folder and contains link to the user documentation. </p>
-						<div class="alert alert-danger"> Please note, we do not provide PSD, clipart images, audio and video files due to author’s rights. In case if you need PSD files we can provide them by request.</div>
-						<h3>
-							Support
-						</h3>
-						<p> Our themes comes with complimentary support. If you have any questions related to theme defects, please visit our <a href="https://rovadex.ticksy.com/">Support Desk</a>. <h3>
-							Our Partners
-						</h3>
-							<p> We will help you choose the best web hosting plan and even move your site for you. Here are our partners: </p>
-							<ul>
-								<li>
-									<a href="https://hostiq.ua/clients/aff.php?aff=2454&lid=3" title="Hostiq">Hostiq</a>
-								</li>
-								<li>
-									<a href="https://partners.hostgator.com/L2v6a" title="Host Gator">Host Gator</a>
-								</li>
-								<li>
-									<a href="http://depositphotos.com?ref=15185480" title="Deposit Photos">Deposit Photos</a>
-								</li>
-							</ul>
-							<h3>
-							We are Social
-						</h3>
-							<ul>
-								<li>
-									<a href="https://twitter.com/RovadexStudio/" title="Twitter">Twitter</a>
-								</li>
-								<li>
-									<a href="https://www.facebook.com/rovadex/" title="Facebook">Facebook</a>
-								</li>
-								<li>
-									<a href="https://www.instagram.com/rovadex/" title="Instagram">Instagram</a>
-								</li>
-								<li>
-									<a href="https://www.linkedin.com/company/rovadex-com/" title="LinkedIn">Linked In</a>
-								</li>
-							</ul>
-							<!--
-						<p> Our themes comes with complimentary support. If you have any questions related to theme defects, please visit our <a href="https://themeforest.net/user/rovadex">profile page</a> or ask question <a href="https://rovadex.ticksy.com/">Support Desk</a>. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
-						-->
+				<section>
+					<h2 class="rx_header_bottom_divider">Sources & Credits</h2>
+					<h3 class="rx_header_bottom_divider" >Icons</h3>
+					<a href="https://fontawesome.com/v4.7.0/icons">Fontawesome</a>
+
+					<h3 class="rx_header_bottom_divider" >Java Script</h3>
+					<a href="https://jquery.com">JQuery</a><br>
+					<a href="http://fancyapps.com/fancybox/3/">Fancybox</a><br>
+					<a href="http://masonry.desandro.com">Masonry</a><br>
+					<a href="https://kenwheeler.github.io/slick/">Slick</a><br>
+				</section>
+
+				<section><a href="#0" name="extras"></a>
+					<h2 class="rx_header_bottom_divider">Extras</h2>
+					<h3 class="rx_header_bottom_divider" >Licence</h3>
+					<p> There are two licence option before theme purchasing you may choose more appropriate for your case: </p>
+
+					<h4 class="rx_header_bottom_divider">The Regular License</h4>
+					<p> You are able to use current theme to create one single product (site) for you.</p>
+
+					<h4 class="rx_header_bottom_divider">The Extended License.</h4>
+					<p> You are able to resell the single product to other clients. Is required if the end user must pay to use the end product.</p>
+
+					<h3 class="rx_header_bottom_divider" >Package</h3>
+					<h4 class="rx_header_bottom_divider">THEME-SLUG.zip</h4>
+					<p></p>
+
+					<h4 class="rx_header_bottom_divider">documentation.html</h4>
+					<p> This file located inside the THEME NAME Theme folder and contains link to the user documentation. </p>
+					<div class="alert alert-danger"> Please note, we do not provide PSD, clipart images, audio and video files due to author’s rights. In case if you need PSD files we can provide them by request.</div>
+
+					<h3 class="rx_header_bottom_divider" >Support</h3>
+					<p> Our themes comes with complimentary support. If you have any questions related to theme defects, please visit our <a href="https://rovadex.ticksy.com/">Support Desk</a>.
+						<h3 class="rx_header_bottom_divider" >Our Partners</h3>
+						<p> We will help you choose the best web hosting plan and even move your site for you. Here are our partners: </p>
+						<ul>
+							<li>
+								<a href="https://hostiq.ua/clients/aff.php?aff=2454&lid=3" title="Hostiq">Hostiq</a>
+							</li>
+							<li>
+								<a href="https://partners.hostgator.com/L2v6a" title="Host Gator">Host Gator</a>
+							</li>
+							<li>
+								<a href="http://depositphotos.com?ref=15185480" title="Deposit Photos">Deposit Photos</a>
+							</li>
+						</ul>
+						<h3 class="rx_header_bottom_divider" >We are Social</h3>
+						<ul>
+							<li>
+								<a href="https://twitter.com/RovadexStudio/" title="Twitter">Twitter</a>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/rovadex/" title="Facebook">Facebook</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/rovadex/" title="Instagram">Instagram</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/company/rovadex-com/" title="LinkedIn">Linked In</a>
+							</li>
+						</ul>
 					</section>
 				</div>
 			</div>
@@ -298,7 +253,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 	<script src="js/documentation.js"></script>
 </body>
-
 </html>

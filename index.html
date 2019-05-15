@@ -8,8 +8,8 @@
 	<meta name="author" content="Rovadex" />
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
-		  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700" rel="stylesheet">
 	<link href="css/font-awesome.min.css" rel="stylesheet" />
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
@@ -138,9 +138,10 @@
 
 						<section>
 							<h2 class="rx_header_bottom_divider">Fonts</h2>
-							<p>Fonts including in the header</p>
-							<code class="prettyprint language-html">
-								&lt;link type="text/css" rel="stylesheet" href="font_reference"&gt;
+							<p>Fonts are connected at the beginning of the file <strong>style.css</strong></p>
+							<code class="">
+								/*-------------------- FONTS --------------------*/
+								@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700');
 							</code>
 						</section>
 
@@ -172,7 +173,7 @@
 							To obtain the key you should preliminary refer to the <a href="https://developers.google.com/maps/documentation/javascript/get-api-key" target="_blank">official documentation</a>
 						</li>
 						<li>
-							To define the marker, open the scripts.js file anf find the following code:<br><br>
+							To define the marker, open the <strong>scripts.js</strong> file anf find the following code:<br><br>
 							<code class="prettyprint language-javascript">var marker = new google.maps.Marker({
 								position: new google.maps.LatLng(40.6401038, -73.9495823),
 								map: map,
@@ -211,7 +212,7 @@
 
 					<h3 class="rx_header_bottom_divider" >Package</h3>
 					<h4 class="rx_header_bottom_divider">THEME-SLUG.zip</h4>
-					<p>Contains all the html, css, java script template files with specific pages as well as user documentation. Also package contains all related media files such as video, fonts, and images.</p>
+					<p>Contains all the html, css, java script template files with specific pages.</p>
 
 					<h4 class="rx_header_bottom_divider">documentation.html</h4>
 					<p> This file located inside the THEME NAME Theme folder and contains link to the user documentation. </p>
